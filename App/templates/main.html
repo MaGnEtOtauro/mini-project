@@ -1,0 +1,25 @@
+{% extends 'header.html' %}
+<body>
+
+{% block body %}
+
+<head>
+	<title>LetsUpload!</title>
+</head>
+
+	<div class="container" align="middle">
+	<a href="{{ url_for('user_home')}}" align="middle">
+		<img style="width:80%; height:60%;" alt="Letsupload"
+             src="{{ url_for('static', filename='images/lets.png') }}">
+        </img>
+	</a>
+	</div>
+
+{% endblock %}
+</body>
+
+<title>
+LetsUpload!
+</title>
+
+</html>

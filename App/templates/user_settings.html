@@ -1,0 +1,33 @@
+{% extends 'header.html' %}
+
+<body>
+	{% block body %}
+<head>
+	<title>Settings</title>
+</head>
+
+
+
+	<div class="jumbotron">
+	  <h1>Upgrade Your Plan</h1>
+	  <p>Get the best value</p>
+	  <p><a class="btn btn-primary btn-lg" href="/change_plan/" role="button">Learn more</a></p>
+	</div>
+
+	<div align="middle" class="container">
+		<p><a class="btn btn-primary btn-lg" href="/change_password/">Change Password</a>
+	</div>
+	<p>
+	<div align="center">
+	<button onclick="goBack()" class="btn btn-primary">Go Back</button>
+	</div>
+	<script>
+	function goBack() {
+		window.history.back();
+	}
+	</script>
+
+{% endblock %}
+</body>
+
+</html>
